@@ -13,25 +13,25 @@ interface RunDAO {
     suspend fun deleteRun(run: Run)
 
     @Query("SELECT * FROM running_table ORDER BY timestamp DESC")
-    suspend fun getAllRunsSortedByDate(): LiveData<List<Run>>
+    fun getAllRunsSortedByDate(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY timeInMilis DESC")
-    suspend fun getAllRunsSortedByTimeInMilis(): LiveData<List<Run>>
+    fun getAllRunsSortedByTimeInMillis(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY caloriesBurnt DESC")
-    suspend fun getAllRunsSortedByCaloriesBurnt(): LiveData<List<Run>>
+    fun getAllRunsSortedByCaloriesBurned(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY avgSpeedInKMH DESC")
-    suspend fun getAllRunsSortedByAvgSpeed(): LiveData<List<Run>>
+    fun getAllRunsSortedByAvgSpeed(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY distanceInMeters DESC")
-    suspend fun getAllRunsSortedByDistance(): LiveData<List<Run>>
+    fun getAllRunsSortedByDistance(): LiveData<List<Run>>
 
     @Query("SELECT SUM(timeInMilis) FROM running_table")
-    fun getTotalTimeInMilis(): LiveData<Long>
+    fun getTotalTimeInMillis(): LiveData<Long>
 
     @Query("SELECT SUM(caloriesBurnt) FROM running_table")
-    fun getTotalCaloriesBurnt(): LiveData<Int>
+    fun getTotalCaloriesBurned(): LiveData<Int>
 
     @Query("SELECT SUM(distanceInMeters) FROM running_table")
     fun getTotalDistance(): LiveData<Int>
