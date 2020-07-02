@@ -29,8 +29,6 @@ Y
 )app/src/main/res/layout/activity_main.xml,7\6\76b07e40f24cce093536731477540f12e7da3cb6
 Y
 )app/src/main/res/menu/bottom_nav_menu.xml,b\2\b2bdb93c5506261fbedb574044fb21ea44be597a
-Y
-)app/src/main/res/navigation/nav_graph.xml,b\a\baffce053da291d96fb575a09f2bbe9aaa9c4be9
 y
 Iapp/src/main/java/com/goranm/runningappmvvm/ui/fragments/SetupFragment.kt,2\4\24094bfd56904cca4366a969a6aca4bed693e76d
 n
