@@ -43,3 +43,7 @@ n
 Papp/src/main/java/com/goranm/runningappmvvm/ui/viewmodels/StatisticsViewModel.kt,6\9\69c5078876cd99aa74598cb30bcb60ef27153fcd
 |
 Lapp/src/main/java/com/goranm/runningappmvvm/ui/fragments/TrackingFragment.kt,d\6\d6c7c3d3eca6b227876c4756758c00b4b97086ac
+Y
+)app/src/main/res/navigation/nav_graph.xml,b\a\baffce053da291d96fb575a09f2bbe9aaa9c4be9
+w
+Gapp/src/main/java/com/goranm/runningappmvvm/services/TrackingService.kt,9\4\94b98ac8640d053262d54540a1a398c13ceeae9d
